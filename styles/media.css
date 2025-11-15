@@ -200,7 +200,24 @@
   #burger.active span {
     background: #fff !important;
   }
+  html, body {
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    /* Убери горизонтальные отступы у проблемных элементов */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Проверь карточки и изображения */
+    .card__image, .about__image {
+        max-width: 100%;
+        height: auto;
+    }
 }
+
 
 @media (max-width: 500px) {
   .hero__title {
