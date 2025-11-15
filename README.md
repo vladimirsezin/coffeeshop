@@ -51,7 +51,7 @@ burgerMenu.classList.toggle('active');
 Плавная прокрутка к секциям
 scrollIntoView({ behavior: "smooth" });
 
- Динамическое изменение фона шапки
+Динамическое изменение фона шапки
 header.style.backgroundColor = "#4C3F3F";
 CSS анимации
 Плавные переходы при наведении
