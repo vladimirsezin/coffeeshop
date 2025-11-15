@@ -1,6 +1,6 @@
 header {
   height: 465px;
-  background-image: url("/images/newBG2.jpg");
+  background-image: url("../images/newBG2.jpg");
   background-size: cover;
   background-position: center;
   max-height: 465px;
@@ -12,9 +12,11 @@ header {
   padding: 13px 0 0 15px;
   display: flex;
   justify-content: start;
+  
   gap: 15px;
   font-family: "Source Sans 3", sans-serif;
   font-size: 26px;
+  z-index: 2;
 }
 
 .navbar__link {
@@ -78,7 +80,7 @@ header {
   border-radius: 2px;
 }
 #burger__menu {
-  opacity: 0;
+  padding:30px;
   transform: translateY(-20px);
   transition: all 0.3s ease;
 }
